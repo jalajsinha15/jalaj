@@ -11,7 +11,7 @@ stage ('deploy'){
 
 step{
 
-buid 'javac *.java'
+buid "javac *.java"
 }
 }
 }
