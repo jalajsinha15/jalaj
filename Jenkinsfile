@@ -4,7 +4,7 @@ pipeline {
       stage ("build") {
       steps {
     echo "hello"
-
+javac basic10.java
 }
 }
 stage ('deploy'){
@@ -16,3 +16,4 @@ echo "hello jalaj"
 }
 }
 }
+
