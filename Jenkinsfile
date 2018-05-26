@@ -4,7 +4,7 @@ pipeline {
       stage ("build") {
       steps {
     echo "hello"
-javac basic10.java
+sh javac basic10.java
 }
 }
 stage ('deploy'){
