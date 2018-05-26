@@ -1,17 +1,17 @@
 pipeline {
-      agent any {
+      agent any 
       stages {
       stage ("build") {
-      step{
+      steps {
     echo "hello"
 
 }
 }
 stage ('deploy'){
 
-step{
+steps{
 
-buid "javac *.java"
+echo "hello jalaj"
 }
 }
 }
