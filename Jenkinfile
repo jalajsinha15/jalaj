@@ -1,0 +1,18 @@
+pipeline {
+      agent any {
+      stages {
+      stage ("build") {
+      step{
+    echo "hello"
+
+}
+}
+stage ('deploy'){
+
+step{
+
+buid 'javac *.java'
+}
+}
+}
+}
